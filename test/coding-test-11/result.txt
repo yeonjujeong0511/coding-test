@@ -1,3 +1,5 @@
-name:고구마 password:1234
+name:이름 password:1246
+name:꼬부기 password:12456
+name:꼬뷔 password:12345
+name:파닥몬 password:12345
 name:꼬부기 password:123456
-name:쿠로미 password:0000
