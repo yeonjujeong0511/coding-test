@@ -2,7 +2,6 @@ const fs = require("fs");
 const http = require("http");
 const qs = require("querystring");
 const url = require("url");
-const { runInNewContext } = require("vm");
 
 // header.txt를 읽고 header에 저장
 const header = fs.readFileSync("txt/header.txt", "utf-8");
