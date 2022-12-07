@@ -33,7 +33,11 @@ class Students {
     return this._birth;
   }
   set birth(value) {
-    return (this._birth = str(value));
+    if (typeof value === "string") {
+      this._birth = value;
+    } else {
+      this._birth = str(value);
+    }
   }
 }
 const student1 = new Students(
