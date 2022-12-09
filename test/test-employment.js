@@ -13,7 +13,7 @@
 // }
 
 function employment(object) {
-  name = object.name;
+  let name = object.name;
   class Company {
     constructor(name) {
       this.name = name;
